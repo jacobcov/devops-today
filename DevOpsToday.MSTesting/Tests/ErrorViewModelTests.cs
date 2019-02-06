@@ -13,6 +13,7 @@ namespace DevOpsToday.MSTesting.Tests
       var sut = new ErrorViewModel(){RequestId="yes"};
 
       Assert.IsTrue(sut.ShowRequestId);
+      Assert.IsTrue(sut.RequestId=="yes");
     } 
   }
 }
